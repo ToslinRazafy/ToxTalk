@@ -1,5 +1,5 @@
 class User {
-  final String id;
+  final String? id;
   final String firstName;
   final String lastName;
   final String email;
@@ -13,7 +13,7 @@ class User {
   final DateTime createdAt;
 
   User({
-    required this.id,
+    this.id,
     required this.firstName,
     required this.lastName,
     required this.email,
