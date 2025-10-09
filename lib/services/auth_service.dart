@@ -366,7 +366,7 @@ class AuthService {
           .from('users')
           .update({
             'password': hashedPassword,
-            'reset_code': null,
+            'reset_code': null, 
             'reset_expires': null,
             'updated_at': DateTime.now().toIso8601String(),
           })
